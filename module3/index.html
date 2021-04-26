@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Module3_solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <!--<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>-->
@@ -13,7 +16,7 @@
 <body>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
            <p></p>  
@@ -22,7 +25,7 @@
             <a href="index.html"><h1>Food, LLC</h1></a>
           </span>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -33,21 +36,18 @@
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
              <li>
-              <a href="#">
-                <span></span><br class="hidden-xs"> Chicken</a>
+              <a href="#" id="nav-list">Chicken</a>
             </li>
             <li>
-              <a href="#">
-                <span></span><br class="hidden-xs"> Beef</a>
+              <a href="#" id="nav-list">Beef</a>
             </li>
             <li>
-              <a href="#">
-                <span></span><br class="hidden-xs"> Sushi</a>
+              <a href="#" id="nav-list">Sushi</a>
             </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+          </ul>
+        </div>
+      </div>
+    </nav><!--#header-nav-->
   </header>
 
   <h1 class="heading">Our Menu</h1>
@@ -71,10 +71,5 @@
       Sushi, a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold. Restaurants specializing in sushi abound in Japan, where subtleties of preparation find a discriminating clientele, and the dish has gained popularity in the United States and elsewhere. Sushi, a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold. Restaurants specializing in sushi abound in Japan, where subtleties of preparation find a discriminating clientele, and the dish has gained popularity in the United States and elsewhere. Sushi, a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold. Restaurants specializing in sushi abound in Japan, where subtleties of preparation find a discriminating clientele, and the dish has gained popularity in the United States and elsewhere. Sushi, a staple rice dish of Japanese cuisine, consisting of cooked rice flavoured with vinegar and a variety of vegetable, egg, or raw seafood garnishes and served cold. Restaurants specializing in sushi abound in Japan, where subtleties of preparation find a discriminating clientele, and the dish has gained popularity in the United States and elsewhere. Chicken meal is rendered chicken meat that has been dried and ground up, and includes clean flesh, skin, and/or accompanying bone. But if you see a bag of dog food that proudly states it's made with “Real Chicken,” it's referring to a clean combination of chicken flesh. Chicken meal is rendered chicken meat that has been dried and ground up, and includes clean flesh, skin, and/or accompanying bone. But if you see a bag of dog food that proudly states it's made with “Real Chicken,” it's referring to a clean combination of chicken flesh.
     </section>
   </div>
-
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
